@@ -2,6 +2,6 @@
 
 ## Usage
 ```
-docker run -d cdh sh runner.sh $USER
+docker run -d cdh4 sh runner.sh $USER
 ```
 $USER is the user that will be using the node.
