@@ -1,4 +1,4 @@
 #!/bin/sh
 
 . ./fixhosts.sh
-./usr/local/opt/spark-0.7.3/spark-shell
+./usr/local/opt/spark-0.8.0-incubating-bin-cdh4/spark-shell

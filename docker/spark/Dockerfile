@@ -7,11 +7,11 @@ RUN apt-get update
 RUN apt-get install -y git wget openjdk-7-jre-headless python2.7
 
 RUN wget http://www.scala-lang.org/files/archive/scala-2.9.3.tgz
-RUN wget http://spark-project.org/download/spark-0.7.3-prebuilt-cdh4.tgz
+RUN wget http://spark-project.org/download/spark-0.8.0-incubating-bin-cdh4.tgz
 
 RUN mkdir -p /usr/local/opt
 RUN tar xvf scala-2.9.3.tgz -C /usr/local/opt/
-RUN tar xvf spark-0.7.3-prebuilt-cdh4.tgz -C /usr/local/opt/
+RUN tar xvf spark-0.8.0-incubating-bin-cdh4.tgz -C /usr/local/opt/
 
 ENV SCALA_HOME /usr/local/opt/scala-2.9.3
 
